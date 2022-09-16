@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hi_ span{
+    color: #EB1D36;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #181818;
+}
+
+
+.first_div{
+    
+    color: wheat;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.navbar ul li{ 
+   display: inline-block;
+   list-style: none;
+   margin: 10px 60px;
+    font-family: 'Fjalla One', sans-serif;
+    color: wheat;
+}
+
+.navbar ul li a{
+    color: wheat;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background: #EB1D36 ;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover:after{
+width: 100%;
+}
+
+.sec_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 176px;
+}
+.intro-pro{
+
+  font-size: 2vw;
+
+}
+
+.intro-text{
+    margin-top: 10px;
+   font-size: 4vw;
+}
+
+.intro span{
+    color: #EB1D36;
+}
+.IMG{
+    margin-left: 20px;
+    border-radius: 12px;
+    width: 30%;
+    height: 30%;
+}
+/*                     ABOUT                            */
+
+
+.about{
+    background-color: #3D8361;
+    height: 772px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title_about{
+    display: flex;
+    justify-content: center;
+}
+
+.title_about h1{
+    padding: 30px;
+
+}
+
+.part_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.part_2 .first_part img{
+       width: 70%;
+
+       border-radius: 15px;
+}
+
+.part_2 .first_part{
+    flex-basis: 44%;
+}
+
+.part_2 .second_part{
+     flex-basis: 56%;
+}
+
+.second_part .about_par{
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.tab_bar{
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 20px 0 40px;
+    color: #F7F6DC;
+
+}
+
+.tab{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#EB1D36;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+ .active-link::after{
+    width: 50%;
+}
+
+.pro-bar{
+       margin-left: 150px;
+       height: 20px;
+       width: 300px;
+}
+
+.bar-1{
+    margin-left: 309px;
+}
+
+.bar-3{
+    margin-left: 109px;
+}
+.bar-4{
+    margin-left: 145px;
+}
+
+.skill_list ul{
+    list-style: none;
+    font-size: 1.02vw;
+}
+
+.skill_list span {
+    color: black;
+}
+
+
+/* project */
+
+
+.project{
+    
+    font-family: 'Poppins', sans-serif;
+    
+    height: 772px;
+    width: 100%;
+}
+
+.project .project_title h1{
+    color: #EB1D36;
+    margin: 12px;
+    margin-left: 45%;
+
+}
+
+.pro_items{
+    margin-top: 100px;
+    
+}
+
+.ROW{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.ALL_IMG img{
+    width: 120px;
+
+}
+
+._sec{
+    width: 130px;
+}
+
+
+/* contect */
+
+.contect{
+    background-color: #3D8361;
+    font-family: 'Poppins', sans-serif;
+    height: 370px;
+    width: 100%;
+    
+
+}
+
+.contect .contect_title h1{
+    margin-left: 45%;
+}
+
+.contect .contect_title{
+    margin-bottom: 150px;
+}
+
+.contect .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+}
+
+
+
+.gethub{
+       
+       margin: 10px 20px;
+       
+}
+
+a:link, a:visited {
+    
+    color: #181818;
+    
+  }
+  
+
+a:hover{
+    color: black;
+    
+}
+
+
+/* .insta{
+
+}
+
+.linked{
+    
+}
+
+.twitter{
+    
+} */
+
+.number{
+    margin: 50px;
+}
+
+
+
+/* CSS */
+.button-62 {
+    margin: 25px;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
